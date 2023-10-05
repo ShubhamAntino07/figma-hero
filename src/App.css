@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+
+
+
+
+.button-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+  width: 140px;
+  padding: 6px 14px;
+  font-weight:600px ;
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  background: #6E6D70;
+  border: 1.5px solid white;
+  
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.button-12:hover{
+  background-color: white;
+  color: #6E6D70;
+  transition: all 0.5s ease;
+  
+
+}
+
+
+.container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: background-image 0.4s
+   ease-in-out;
+}
+
+.buttons-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+
+.text-container{
+  color: wheat;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
